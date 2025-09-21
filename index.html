@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <video autoplay muted loop class="background-video">
+    <video autoplay muted loop class="background-video" id="background-video">
         <source src="https://api.x-downloader.com/v/3KgNnN/Porn112.Com_Uncle_why_are_you_touching_my_pussy_I_m_a_little_embarrassed_1_DcuFNY.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -71,5 +71,13 @@
         <p>© 2023 Kanishk Mahawar. All Rights Reserved.</p>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const video = document.getElementById('background-video');
+            video.addEventListener('loadedmetadata', function() {
+                video.currentTime = 180; // 180 seconds = 3 minutes
+            });
+        });
+    </script>
 </body>
 </html>
