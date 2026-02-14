@@ -290,7 +290,7 @@
             <a href="#home" class="block px-4 py-3 hover:bg-brand-700 border-b border-brand-700" data-key="nav_home">Home</a>
             <a href="#schedules" class="block px-4 py-3 hover:bg-brand-700 border-b border-brand-700" data-key="nav_schedules">Festival Schedules</a>
             <a href="#student-corner" class="block px-4 py-3 hover:bg-brand-700 border-b border-brand-700" data-key="nav_student_corner">Student Corner</a>
-            <a href="tarakash.index.html" class="block px-4 py-3 hover:bg-brand-700 border-b border-brand-700" data-key="nav_gallery">Tarakash 1.0</a>
+            <a href="tarakash.html" class="block px-4 py-3 hover:bg-brand-700 border-b border-brand-700" data-key="nav_gallery">Tarakash 1.0</a>
             <a href="#contact" class="block px-4 py-3 hover:bg-brand-700" data-key="nav_contact">Contact</a>
         </div>
     </nav>
@@ -338,7 +338,7 @@
     <!-- Dignitaries Section -->
     <div class="bg-white border-b border-slate-200 shadow-sm relative z-10">
         <div class="max-w-7xl mx-auto px-4 py-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
                 <!-- Principal -->
                 <div class="flex flex-col items-center text-center group">
                     <div class="w-24 h-24 md:w-28 md:h-28 rounded-lg overflow-hidden border-4 border-slate-100 shadow-md mb-3 group-hover:border-brand-200 transition-colors duration-300">
@@ -346,8 +346,8 @@
                              alt="Principal" 
                              class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-sm md:text-base font-bold text-brand-900 leading-tight mb-1" data-key="dig_principal_name">Dr. Shyoji Ram Meena</h3>
-                    <p class="text-xs text-slate-500 font-semibold uppercase tracking-wide" data-key="dig_principal_title">Principal & Controller</p>
+                    <h3 class="text-sm md:text-base font-bold text-brand-900 leading-tight mb-1" data-key="princ_name">Dr. Shyoji Ram Meena</h3>
+                    <p class="text-xs text-slate-500 font-semibold uppercase tracking-wide" data-key="princ_title">Principal & Controller</p>
                 </div>
 
                 <!-- Welfare Incharge -->
@@ -613,95 +613,109 @@
                         </div>
                     </div>
                     <div class="mt-4 text-center">
-                        <a href="tarakash/index.html" class="text-sm text-brand-600 font-bold hover:underline">View Team Lists & Captains →</a>
+                        <a href="https://gmcbundi.dpdns.org/Tarakash/" class="text-sm text-brand-600 font-bold hover:underline">View Team Lists & Captains →</a>
                     </div>
                 </div>
 
                 <!-- Festival Schedules Section -->
                 <div id="schedules" class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 mt-8">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0046.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0049.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            
-                            <!-- Image Batch 2 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0056.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0064.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-brand-900 border-l-4 border-brand-600 pl-3" data-key="schedules_title">Festival Schedules</h3>
+                    </div>
+                    <div class="bg-brand-50 p-8 rounded border border-brand-100 text-center">
+                        <svg class="w-12 h-12 text-brand-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <p class="text-slate-600 font-medium" data-key="schedules_empty">Upcoming event schedules will be updated here soon.</p>
+                    </div>
+                </div>
 
-                            <!-- Image Batch 3 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0066.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0069.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0075.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
+                <!-- Student Corner & Tarakash Gallery (Updated Layout) -->
+                <div id="student-corner" class="bg-white p-8 rounded-xl shadow-sm border border-slate-200 mt-8">
+                    <!-- Main Header -->
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-brand-900 border-l-4 border-brand-600 pl-3" data-key="student_corner_title">Student Corner</h2>
+                    </div>
+                    
+                    <!-- Tarakash Sub-Header & Button -->
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-4">
+                        <h3 class="text-xl font-bold text-brand-800 border-l-4 border-brand-600 pl-3" data-key="tarakash_title">Tarakash 1.0 - Annual Festival</h3>
+                        
+                        <a href="https://www.instagram.com/taraksh.gmcbundi/?hl=en" target="_blank" class="inline-flex items-center px-4 py-2 bg-pink-100 text-pink-600 rounded-full text-sm font-bold hover:bg-pink-200 transition shadow-sm border border-pink-200">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            Festival Instagram
+                        </a>
+                    </div>
 
-                            <!-- Image Batch 4 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0087.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0090.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                        <!-- Image Batch 1 -->
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0042.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0046.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0049.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0054.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        
+                        <!-- Image Batch 2 -->
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0056.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0064.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0066.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0069.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
 
-                            <!-- Image Batch 5 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0096.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0099.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0102.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0105.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
+                        <!-- Image Batch 3 -->
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0075.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0087.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0090.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0096.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
 
-                            <!-- Image Batch 6 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0111.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0112.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0114.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            
-                            <!-- Image Batch 7 -->
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0115.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
-                            <div class="h-40 overflow-hidden rounded shadow-sm group cursor-pointer relative">
-                                <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0118.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
-                                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
-                            </div>
+                        <!-- Image Batch 4 -->
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0099.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0102.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0105.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
+                        </div>
+                        <div class="h-48 overflow-hidden rounded-lg shadow-sm group cursor-pointer relative">
+                            <img src="https://raw.githubusercontent.com/kanishk2007dev/gmcbundi-main-website/main/IMG-20260201-WA0111.jpg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" alt="Gallery Image" onclick="openLightbox(this.src)">
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300 pointer-events-none"></div>
                         </div>
                     </div>
                 </div>
@@ -738,6 +752,7 @@
                     <ul class="space-y-3 text-sm">
                         <li><a href="https://ruhsraj.org.in/Ruhsstudent/index" target="_blank" class="flex items-center hover:text-brand-300 transition border-b border-brand-800 pb-2"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg> <span data-key="link_panel">RUHS Student Panel</span></a></li>
                         <li><a href="https://results.ruhsraj.org/" target="_blank" class="flex items-center hover:text-brand-300 transition border-b border-brand-800 pb-2"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg> <span data-key="link_results">Exam Results</span></a></li>
+                        <li><a href="#committees" class="flex items-center hover:text-brand-300 transition border-b border-brand-800 pb-2"><svg class="w-4 h-4 mr-2 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg> <span data-key="link_committees">Committees</span></a></li>
                         
                         <!-- Highlighted Associated Functions Link -->
                         <li class="mt-6 pt-2">
@@ -908,14 +923,12 @@
                 univ_name: "Rajasthan University of Health Sciences (RUHS)",
                 nav_home: "Home",
                 nav_about: "About Us",
+                nav_disclosure: "Disclosure",
                 nav_dept: "Departments",
-                nav_committees: "Committees",
-                nav_schedules: "Festival Schedules",
-                nav_student_corner: "Student Corner",
-                nav_gallery: "Tarakash 1.0",
+                nav_gallery: "Gallery",
                 nav_facilities: "Facilities",
                 nav_contact: "Contact",
-                nmc_login: "GMC Main Website",
+                nmc_login: "NMC Login",
                 latest_updates: "Latest Updates",
                 news_recruitment: "New Recruitment Order Released. Click to View.",
                 news_tender: "New Tender Notification Released. Click to Download.",
@@ -932,8 +945,63 @@
                 quick_tenders: "Tenders",
                 quick_faculty: "Faculty",
                 quick_recruitment: "Recruitment",
-                dig_principal_name: "Dr. Shyoji Ram Meena",
-                dig_principal_title: "Principal & Controller",
+                dig_gov_name: "Shri Haribhau Bagade",
+                dig_gov_title: "Hon'ble Governor,<br>Rajasthan State",
+                dig_cm_name: "Shri Bhajan Lal Sharma",
+                dig_cm_title: "Hon'ble Chief Minister,<br>Rajasthan State",
+                dig_dcm_name: "Smt. Diya Kumari",
+                dig_dcm_title: "Deputy Chief Minister,<br>Rajasthan State",
+                dig_min_name: "Shri Gajendra Singh",
+                dig_min_title: "Hon'ble Cabinet Minister,<br>Medical Education Dept.",
+                princ_name: "Dr. Shyoji Ram Meena",
+                princ_title: "Principal & Controller",
+                princ_dept: "Professor, Dept. of General Medicine",
+                princ_college: "Government Medical College, Bundi",
+                welcome_title: "Welcome to BMSA",
+                welcome_text_1: "<span class=\"text-3xl float-left mr-2 font-serif text-brand-300 font-bold\">\"</span>Bundi Medical Student Association of Government Medical College Bundi is a premier institution established with the vision of bridging the gap in healthcare services and medical education. Affiliated with the <strong>Rajasthan University of Health Sciences</strong> and approved by the NMC, we are committed to academic excellence and holistic student development.",
+                welcome_text_2: "Our campus is equipped with modern infrastructure, advanced laboratories, and a teaching hospital that serves the community. We strive to produce competent medical professionals who are ethical, compassionate, and skilled in serving humanity.",
+                btn_read_msg: "Read Full Message",
+                btn_view_dept: "View Departments",
+                stat_seats: "MBBS Seats",
+                stat_hospital: "Bedded Hospital",
+                stat_faculty: "Expert Faculty",
+                stat_emergency: "Emergency",
+                campus_life: "Campus Life",
+                view_gallery: "View Gallery",
+                notice_board: "Notice Board",
+                notice_new: "New",
+                view_archive: "View Archive",
+                student_corner: "Student Corner",
+                link_panel: "RUHS Student Panel",
+                link_results: "Exam Results",
+                link_enrol: "Enrolment",
+                link_ragging: "Anti-Ragging",
+                mand_disclosure: "Mandatory Disclosure",
+                tbl_param: "Parameter",
+                tbl_status: "Status",
+                tbl_col_name: "College Name",
+                tbl_est: "Establishment",
+                tbl_princ: "Principal",
+                tbl_phone: "Phone/Mobile",
+                tbl_hostel: "Hostel Facility",
+                tbl_skill: "Skill Lab",
+                tbl_waste: "Bio-Medical Waste",
+                tbl_cctv: "CCTV Coverage",
+                tbl_blood: "Blood Bank",
+                tbl_net: "Internet",
+                footer_desc: "Government Medical College, Bundi, Rajasthan.",
+                footer_contact: "Contact & Map",
+                footer_nodal: "Dr. Vinod Verma",
+                footer_nodal_title: "(Nodal Officer)",
+                footer_prog: "Mr. Keshav Tiwari",
+                footer_prog_title: "(Programmer)",
+                footer_quick: "Quick Links",
+                footer_ext: "External Links",
+                footer_link_official: "Official Portal",
+                footer_link_attend: "NMC Attendance",
+                footer_link_dme: "DME Rajasthan",
+                footer_link_feedback: "Feedback",
+                footer_link_gmc_main: "GMC Main Website",
                 dig_welfare_name: "Dr. Vijay Nayak",
                 dig_welfare_title: "Welfare Committee Incharge",
                 dig_sports_name: "Dr. Mithlesh Meena",
@@ -951,19 +1019,6 @@
                 bmsa_vp_title_card: "Vice President",
                 bmsa_sec_name_card: "Manish Kumar Meena",
                 bmsa_sec_title_card: "General Secretary",
-                princ_name: "Dr. Shyoji Ram Meena",
-                princ_title: "Principal & Controller",
-                princ_dept: "Professor, Dept. of General Medicine",
-                princ_college: "Bundi Medical Student Association of Government Medical College Bundi",
-                welcome_title: "Welcome to BMSA",
-                welcome_text_1: "<span class=\"text-3xl float-left mr-2 font-serif text-brand-300 font-bold\">\"</span>Bundi Medical Student Association of Government Medical College Bundi is a premier institution established with the vision of bridging the gap in healthcare services and medical education. Affiliated with the <strong>Rajasthan University of Health Sciences</strong> and approved by the NMC, we are committed to academic excellence and holistic student development.",
-                welcome_text_2: "Our campus is equipped with modern infrastructure, advanced laboratories, and a teaching hospital that serves the community. We strive to produce competent medical professionals who are ethical, compassionate, and skilled in serving humanity.",
-                btn_read_msg: "Read Full Message",
-                btn_view_dept: "View Departments",
-                stat_students: "Total Students",
-                stat_bmsa_members: "BMSA Members",
-                stat_executives: "Executive Members",
-                stat_emergency: "Emergency",
                 committee_title: "BMSA Committees",
                 comm_cultural: "Cultural Committee",
                 comm_sports: "Sports Committee",
@@ -976,41 +1031,8 @@
                 schedules_title: "Festival Schedules",
                 schedules_empty: "Upcoming event schedules will be updated here soon.",
                 student_corner_title: "Student Corner",
-                sc_panel: "RUHS Student Panel",
-                sc_panel_desc: "Login for attendance & academics",
-                sc_results: "Exam Results",
-                sc_results_desc: "Check latest RUHS results",
-                sc_enrol: "Enrolment & Admission",
-                sc_enrol_desc: "Forms and procedure details",
-                sc_ragging: "Anti-Ragging",
-                sc_ragging_desc: "Helpline and Guidelines",
                 tarakash_title: "Tarakash 1.0 - Annual Festival",
-                view_gallery: "View Gallery",
-                notice_board: "Notice Board",
-                notice_new: "New",
-                view_archive: "View Archive",
-                student_corner: "Student Corner",
-                quick_links_title: "Quick Links",
-                link_panel: "RUHS Student Panel",
-                link_results: "Exam Results",
-                link_committees: "Committees",
-                link_festivals: "Associated Functions",
                 social_title: "Connect With Us",
-                footer_desc: "Bundi Medical Student Association of Government Medical College Bundi, Rajasthan.",
-                footer_contact: "Contact & Map",
-                footer_pres: "Vinit Choudhury",
-                footer_pres_title: "(President)",
-                footer_vp: "Utkarsh Shukla",
-                footer_vp_title: "(Vice President)",
-                footer_sec: "Manish Kumar Meena",
-                footer_sec_title: "(General Secretary)",
-                footer_quick: "Quick Links",
-                footer_ext: "External Links",
-                footer_link_feedback: "Feedback",
-                footer_link_gmc_main: "GMC Main Website",
-                footer_link_official: "Official Portal",
-                footer_link_attend: "NMC Attendance",
-                footer_link_dme: "DME Rajasthan",
                 copyright: "&copy; 2025 Bundi Medical Student Association of Government Medical College Bundi. All Rights Reserved.",
                 website_contact: "For any changes in this website contact: <a href='mailto:studentsgmcbundi@gmail.com' class='hover:text-white underline transition'>studentsgmcbundi@gmail.com</a>"
             },
@@ -1022,10 +1044,7 @@
                 nav_about: "हमारे बारे में",
                 nav_disclosure: "प्रकटीकरण",
                 nav_dept: "विभाग",
-                nav_committees: "समितियां",
-                nav_schedules: "त्योहार कार्यक्रम",
-                nav_student_corner: "छात्र कोना",
-                nav_gallery: "तरकश 1.0",
+                nav_gallery: "गैलरी",
                 nav_facilities: "सुविधाएं",
                 nav_contact: "संपर्क",
                 nmc_login: "एनएमसी लॉगिन",
@@ -1045,8 +1064,63 @@
                 quick_tenders: "निविदाएं",
                 quick_faculty: "संकाय",
                 quick_recruitment: "भर्ती",
-                dig_principal_name: "डॉ. श्योजी राम मीणा",
-                dig_principal_title: "प्रधानाचार्य एवं नियंत्रक",
+                dig_gov_name: "श्री हरिभाऊ बागड़े",
+                dig_gov_title: "माननीय राज्यपाल,<br>राजस्थान राज्य",
+                dig_cm_name: "श्री भजन लाल शर्मा",
+                dig_cm_title: "माननीय मुख्यमंत्री,<br>राजस्थान राज्य",
+                dig_dcm_name: "श्रीमती दिया कुमारी",
+                dig_dcm_title: "उप मुख्यमंत्री,<br>राजस्थान राज्य",
+                dig_min_name: "श्री गजेंद्र सिंह",
+                dig_min_title: "माननीय कैबिनेट मंत्री,<br>चिकित्सा शिक्षा विभाग",
+                princ_name: "डॉ. श्योजी राम मीणा",
+                princ_title: "प्रधानाचार्य एवं नियंत्रक",
+                princ_dept: "प्रोफेसर, जनरल मेडिसिन विभाग",
+                princ_college: "राजकीय मेडिकल कॉलेज, बूंदी",
+                welcome_title: "BMSA में आपका स्वागत है",
+                welcome_text_1: "<span class=\"text-3xl float-left mr-2 font-serif text-brand-300 font-bold\">\"</span>बूंदी मेडिकल स्टूडेंट एसोसिएशन, राजकीय मेडिकल कॉलेज बूंदी एक प्रमुख संस्थान है जिसकी स्थापना स्वास्थ्य सेवाओं और चिकित्सा शिक्षा में अंतर को पाटने की दृष्टि से की गई है। <strong>राजस्थान स्वास्थ्य विज्ञान विश्वविद्यालय</strong> से संबद्ध और एनएमसी द्वारा अनुमोदित, हम शैक्षणिक उत्कृष्टता और समग्र छात्र विकास के लिए प्रतिबद्ध हैं।",
+                welcome_text_2: "हमारा परिसर आधुनिक बुनियादी ढांचे, उन्नत प्रयोगशालाओं और समुदाय की सेवा करने वाले एक शिक्षण अस्पताल से सुसज्जित है। हम सक्षम चिकित्सा पेशेवरों को तैयार करने का प्रयास करते हैं जो नैतिक, दयालु और मानवता की सेवा में कुशल हों।",
+                btn_read_msg: "पूरा संदेश पढ़ें",
+                btn_view_dept: "विभाग देखें",
+                stat_seats: "एमबीबीएस सीटें",
+                stat_hospital: "बिस्तरों वाला अस्पताल",
+                stat_faculty: "विशेषज्ञ संकाय",
+                stat_emergency: "आपातकालीन",
+                campus_life: "परिसर जीवन",
+                view_gallery: "गैलरी देखें",
+                notice_board: "सूचना पट्ट",
+                notice_new: "नया",
+                view_archive: "संग्रह देखें",
+                student_corner: "छात्र कोना",
+                link_panel: "RUHS छात्र पैनल",
+                link_results: "परीक्षा परिणाम",
+                link_enrol: "नामांकन",
+                link_ragging: "एंटी-रैगिंग",
+                mand_disclosure: "अनिवार्य प्रकटीकरण",
+                tbl_param: "पैरामीटर",
+                tbl_status: "स्थिति",
+                tbl_col_name: "कॉलेज का नाम",
+                tbl_est: "स्थापना",
+                tbl_princ: "प्रधानाचार्य",
+                tbl_phone: "फोन/मोबाइल",
+                tbl_hostel: "छात्रावास सुविधा",
+                tbl_skill: "कौशल प्रयोगशाला",
+                tbl_waste: "जैव-चिकित्सा अपशिष्ट",
+                tbl_cctv: "सीसीटीवी कवरेज",
+                tbl_blood: "ब्लड बैंक",
+                tbl_net: "इंटरनेट",
+                footer_desc: "राजकीय मेडिकल कॉलेज, बूंदी, राजस्थान।",
+                footer_contact: "संपर्क और मानचित्र",
+                footer_nodal: "डॉ. विनोद वर्मा",
+                footer_nodal_title: "(नोडल अधिकारी)",
+                footer_prog: "श्री केशव तिवारी",
+                footer_prog_title: "(प्रोग्रामर)",
+                footer_quick: "त्वरित लिंक",
+                footer_ext: "बाहरी लिंक",
+                footer_link_official: "आधिकारिक पोर्टल",
+                footer_link_attend: "एनएमसी उपस्थिति",
+                footer_link_dme: "डीएमई राजस्थान",
+                footer_link_feedback: "प्रतिक्रिया",
+                footer_link_gmc_main: "जीएमसी मुख्य वेबसाइट",
                 dig_welfare_name: "डॉ. विजय नायक",
                 dig_welfare_title: "कल्याण समिति प्रभारी",
                 dig_sports_name: "डॉ. मिथलेश मीणा",
@@ -1064,19 +1138,6 @@
                 bmsa_vp_title_card: "उपाध्यक्ष",
                 bmsa_sec_name_card: "मनीष कुमार मीणा",
                 bmsa_sec_title_card: "महासचिव",
-                princ_name: "डॉ. श्योजी राम मीणा",
-                princ_title: "प्रधानाचार्य एवं नियंत्रक",
-                princ_dept: "प्रोफेसर, जनरल मेडिसिन विभाग",
-                princ_college: "बूंदी मेडिकल स्टूडेंट एसोसिएशन, राजकीय मेडिकल कॉलेज बूंदी",
-                welcome_title: "BMSA में आपका स्वागत है",
-                welcome_text_1: "<span class=\"text-3xl float-left mr-2 font-serif text-brand-300 font-bold\">\"</span>बूंदी मेडिकल स्टूडेंट एसोसिएशन, राजकीय मेडिकल कॉलेज बूंदी एक प्रमुख संस्थान है जिसकी स्थापना स्वास्थ्य सेवाओं और चिकित्सा शिक्षा में अंतर को पाटने की दृष्टि से की गई है। <strong>राजस्थान स्वास्थ्य विज्ञान विश्वविद्यालय</strong> से संबद्ध और एनएमसी द्वारा अनुमोदित, हम शैक्षणिक उत्कृष्टता और समग्र छात्र विकास के लिए प्रतिबद्ध हैं।",
-                welcome_text_2: "हमारा परिसर आधुनिक बुनियादी ढांचे, उन्नत प्रयोगशालाओं और समुदाय की सेवा करने वाले एक शिक्षण अस्पताल से सुसज्जित है। हम सक्षम चिकित्सा पेशेवरों को तैयार करने का प्रयास करते हैं जो नैतिक, दयालु और मानवता की सेवा में कुशल हों।",
-                btn_read_msg: "पूरा संदेश पढ़ें",
-                btn_view_dept: "विभाग देखें",
-                stat_students: "कुल छात्र",
-                stat_bmsa_members: "BMSA सदस्य",
-                stat_executives: "कार्यकारी सदस्य",
-                stat_emergency: "आपातकालीन",
                 committee_title: "BMSA समितियां",
                 comm_cultural: "सांस्कृतिक समिति",
                 comm_sports: "खेल समिति",
@@ -1089,43 +1150,9 @@
                 schedules_title: "त्योहार कार्यक्रम",
                 schedules_empty: "आगामी कार्यक्रम की अनुसूचियां जल्द ही यहां अपडेट की जाएंगी।",
                 student_corner_title: "छात्र कोना",
-                sc_panel: "RUHS छात्र पैनल",
-                sc_panel_desc: "उपस्थिति और शिक्षाविदों के लिए लॉगिन",
-                sc_results: "परीक्षा परिणाम",
-                sc_results_desc: "नवीनतम RUHS परिणाम देखें",
-                sc_enrol: "नामांकन और प्रवेश",
-                sc_enrol_desc: "प्रपत्र और प्रक्रिया विवरण",
-                sc_ragging: "एंटी-रैगिंग",
-                sc_ragging_desc: "हेल्पलाइन और दिशानिर्देश",
                 tarakash_title: "तरकश 1.0 - वार्षिक उत्सव",
-                campus_life: "परिसर जीवन",
-                view_gallery: "गैलरी देखें",
-                notice_board: "सूचना पट्ट",
-                notice_new: "नया",
-                view_archive: "संग्रह देखें",
-                student_corner: "छात्र कोना",
-                quick_links_title: "त्वरित लिंक",
-                link_panel: "RUHS छात्र पैनल",
-                link_results: "परीक्षा परिणाम",
-                link_committees: "समितियां",
-                link_festivals: "संबद्ध समारोह",
                 social_title: "सोशल मीडिया पर जुड़ें",
-                footer_desc: "बूंदी मेडिकल स्टूडेंट एसोसिएशन, राजकीय मेडिकल कॉलेज बूंदी, राजस्थान।",
-                footer_contact: "संपर्क और मानचित्र",
-                footer_pres: "विनीत चौधरी",
-                footer_pres_title: "(अध्यक्ष)",
-                footer_vp: "उत्कर्ष शुक्ला",
-                footer_vp_title: "(उपाध्यक्ष)",
-                footer_sec: "मनीष कुमार मीणा",
-                footer_sec_title: "(महासचिव)",
-                footer_quick: "त्वरित लिंक",
-                footer_ext: "बाहरी लिंक",
-                footer_link_feedback: "प्रतिक्रिया",
-                footer_link_gmc_main: "जीएमसी मुख्य वेबसाइट",
-                footer_link_official: "आधिकारिक पोर्टल",
-                footer_link_attend: "एनएमसी उपस्थिति",
-                footer_link_dme: "डीएमई राजस्थान",
-                copyright: "&copy; 2025 बूंदी मेडिकल स्टूडेंट एसोसिएशन, राजकीय मेडिकल कॉलेज बूंदी। सर्वाधिकार सुरक्षित।",
+                copyright: "&copy; 2025 राजकीय मेडिकल कॉलेज, बूंदी। सर्वाधिकार सुरक्षित।",
                 website_contact: "इस वेबसाइट में किसी भी बदलाव के लिए संपर्क करें: <a href='mailto:studentsgmcbundi@gmail.com' class='hover:text-white underline transition'>studentsgmcbundi@gmail.com</a>"
             }
         };
@@ -1183,32 +1210,6 @@
 
         // Change slide every 4 seconds
         setInterval(nextSlide, 4000);
-
-        // Lightbox Functions
-        function openLightbox(src) {
-            const lightbox = document.getElementById('lightbox');
-            const img = document.getElementById('lightbox-img');
-            img.src = src;
-            lightbox.classList.remove('hidden');
-            // Small delay to allow display:block to apply before opacity transition
-            setTimeout(() => {
-                lightbox.classList.remove('opacity-0');
-                img.classList.remove('scale-95');
-                img.classList.add('scale-100');
-            }, 10);
-        }
-
-        function closeLightbox() {
-            const lightbox = document.getElementById('lightbox');
-            const img = document.getElementById('lightbox-img');
-            lightbox.classList.add('opacity-0');
-            img.classList.remove('scale-100');
-            img.classList.add('scale-95');
-            setTimeout(() => {
-                lightbox.classList.add('hidden');
-                img.src = '';
-            }, 300);
-        }
     </script>
 </body>
 </html>
